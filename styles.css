@@ -132,7 +132,7 @@ html {
 }
 
 
-@media (max-width: 380px) {
+@media screen and (max-width: 380px) {
     html, body {
         overflow-x: hidden;  /* Bloquea el scroll horizontal */
     }
