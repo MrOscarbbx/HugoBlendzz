@@ -61,20 +61,72 @@ html {
     height: 20vh;
     left: 50%;
     transform: translateX(-50%);
-    font-size: 3em;
     color: rgb(0, 0, 0);
     font-family: 'Winchester', sans-serif;
-    font-size: 15em;
+    font-size: 20vw;
     text-align: center;
     line-height: 20vh;
     z-index: 1;
     overflow: visible;
     background-color: rgb(255, 255, 255);
+    text-shadow: 7px 7px 00px rgb(255, 255, 255);
+}
+
+.texto {
+    position: absolute;
+    top: 180vh;
+    width: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 3em;
+    color: rgb(255, 255, 255);
+    font-family: 'Monserrat', sans-serif;
+    text-align: center;
+    line-height: 20vh;
+    z-index: 1;
+    text-shadow: 2px 2px 00px rgb(0, 0, 0);
+}
+.agenda {
+    position: absolute;
+    top: 220vh;
+    left: -100vw;
+    width: 50vw;
+    height: auto;
+    z-index: 1;
+}
+.cita {
+    position: absolute;
+    top: 240vh;
+}
+.redsociales {
+    position: absolute;
+    top: 310vh;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    text-align: center;
+}
+.redsocial {
+    width: 5vw;
+    height: auto;
+    margin: 0 1vw;
+}
+.redes-texto {
+    font-size: 1.2em;
+    color: rgb(255, 255, 255);
+    font-family: 'Monserrat', sans-serif;
+    text-decoration: none;
 }
 
 @font-face {
     font-family: 'Winchester';
     src: url('fonts/Winchester\ Free.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Monserrat';
+    src: url('fonts/Montserrat-VariableFont_wght.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
