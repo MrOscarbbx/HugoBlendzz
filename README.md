@@ -1,0 +1,2 @@
+# HugoBlendzz
+Pagina Para Hugo
