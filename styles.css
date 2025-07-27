@@ -1,0 +1,80 @@
+html {
+    background-color: red;
+    overflow-x: hidden;
+}
+.logo {
+    width: 50vw;
+    height: auto;
+    display: block;
+    margin-top: 2vh;
+    margin-left: auto;
+    margin-right: auto;
+}
+.calavera {
+    width: 50vw;
+    height: auto;
+    position: absolute;
+    top: -10vh;
+    right: -20vw;
+    margin: 0 auto;
+    z-index: -1;
+}
+.izquierda {
+    left: -20vw;
+    right: auto;
+    transform: rotateY(180deg);
+}
+.seccion {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 100vh;
+    left: 0;
+    z-index: -2;
+}
+.flor {
+    width: 50%;
+    height: auto;
+    position: absolute;
+    top: 100vh;
+    left: 0;
+    z-index: -2;
+}
+.arriba {
+    top: 110vh;
+    left: -20%;
+    transform: rotateX(180deg) rotateY(180deg);
+}
+.abajo {
+    width: 40%!important;
+    top: 150vh;
+    left: 90%;
+    transform: translateX(-50%);
+}
+
+
+
+.titulo {
+    position: absolute;
+    top: 100vh;
+    width: 100%;
+    height: 20vh;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 3em;
+    color: rgb(0, 0, 0);
+    font-family: 'Winchester', sans-serif;
+    font-size: 15em;
+    text-align: center;
+    line-height: 20vh;
+    z-index: 1;
+    overflow: visible;
+    background-color: rgb(255, 255, 255);
+}
+
+@font-face {
+    font-family: 'Winchester';
+    src: url('fonts/Winchester\ Free.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
